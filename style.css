@@ -1,0 +1,48 @@
+/* Tampilan seluruh halaman */
+body {
+font-family: Arial, sans-serif;
+background-color: #eaf2f8;
+margin: 0;
+padding: 20px;
+}
+/* Kotak utama */
+.container {
+background-color: white;
+max-width: 600px;
+margin: 20px auto;
+padding: 25px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Judul dan subjudul */
+h1 { color: #2563a6; }
+h2 { color: #333333; }
+h3 { color: #2563a6; }
+/* Foto profil */
+img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+}
+/* Paragraf */
+p {
+color: #444444;
+line-height: 1.6;
+}
+/* Bagian biodata, hobi, dan cita-cita */
+.biodata, .hobi, .cita-cita {
+background-color: #f5f8fc;
+margin-top: 20px;
+padding: 15px;
+border-radius: 8px;
+text-align: left;
+}
+/* Daftar hobi */
+ul { line-height: 1.8; }
+/* Penyesuaian untuk layar kecil */
+@media (max-width: 480px) {
+body { padding: 10px; }
+.container { padding: 15px; }
+  }
